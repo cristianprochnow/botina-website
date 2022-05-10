@@ -1,2 +1,2 @@
-# botina-website
-🤖 Botina Website com o conteúdo de todo o PAC da Católica de Santa Catarina.
+# 🤖 Botina
+Website com todo o conteúdo aprendido ao longo de todo o percurso da primeira etapa do PAC, da Católica SC.

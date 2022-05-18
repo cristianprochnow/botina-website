@@ -1,0 +1,37 @@
+@import url(../components/wrapper.css);
+@import url(../components/nav-link.css);
+
+#homepage {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#hello {
+  background: url(../../assets/thumbnail.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#hello header {
+  padding: 1.6rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hello header h1 {
+  font-size: 4rem;
+  color: var(--white);
+  font-family: 'Roboto Mono', monospace;
+}
+
+#hello header nav {
+  display: flex;
+  height: 100%;
+  gap: .8rem;
+}

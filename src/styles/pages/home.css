@@ -1,5 +1,6 @@
 @import url(../components/wrapper.css);
 @import url(../components/nav-link.css);
+@import url(../animations/showHide.css);
 
 #homepage {
   width: 100vw;
@@ -57,4 +58,39 @@
   font-size: 1.6rem;
   line-height: 3.2rem;
   width: 50%;
+}
+
+#hello footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hello footer div {
+  width: 4.8rem;
+  height: 2.4rem;
+  position: relative;
+}
+
+#hello footer div span {
+  position: relative;
+  animation-name: showHide;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  height: 100%;
+  background-color: var(--white-accent);
+  border: .2rem solid var(--white-accent);
+  position: absolute;
+}
+
+#hello footer div span:first-child {
+  transform: rotate(135deg);
+  top: -83%;
+  right: 62.5%;
+}
+
+#hello footer div span:last-child {
+  transform: rotate(45deg);
+  top: -83%;
+  right: 28.5%;
 }

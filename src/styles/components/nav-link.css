@@ -7,6 +7,7 @@
   border-radius: .4rem;
   padding: 1.6rem;
   transition: opacity .3s;
+  text-align: center;
 }
 
 .nav-link:hover {

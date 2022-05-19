@@ -1,8 +1,5 @@
-@import url(/src/styles/variables.css);
+@import url(../variables.css);
 
-html {
-  scroll-behavior: smooth;
-}
 #backToTop {
   position: fixed;
   bottom: 2.2rem;

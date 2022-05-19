@@ -10,10 +10,11 @@ html {
   font-size: 62.5%;
   font-family: 'Roboto Mono', sans-serif;
   color: var(--white);
+  background-color: var(--black);
+  scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
-
   overflow: overlay;
 }

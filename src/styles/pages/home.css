@@ -1,6 +1,7 @@
 @import url(../components/wrapper.css);
 @import url(../components/nav-link.css);
 @import url(../animations/showHide.css);
+@import url(../components/back-to-top.css);
 
 #homepage {
   width: 100vw;
@@ -93,4 +94,34 @@
   transform: rotate(45deg);
   top: -83%;
   right: 28.5%;
+}
+
+@media (max-width: 960px) {
+  #hello header {
+    gap: 1.6rem;
+    flex-direction: column;
+  }
+
+  #hello main h1, #hello main p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #hello header {
+    gap: 1.6rem;
+    flex-direction: column;
+  }
+
+  #hello header nav {
+    display: none;
+  }
+
+  #hello main h1, #hello main p {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
 }

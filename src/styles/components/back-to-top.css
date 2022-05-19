@@ -5,8 +5,8 @@ html {
 }
 #backToTop {
   position: fixed;
-  bottom: 1rem;
-  right: 2.5rem;
+  bottom: 2.2rem;
+  right: 4.5rem;
 
   opacity: 0;
   visibility: hidden;

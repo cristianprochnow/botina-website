@@ -6,4 +6,9 @@
   border: .2rem solid var(--white);
   border-radius: .4rem;
   padding: 1.6rem;
+  transition: opacity .3s;
+}
+
+.nav-link:hover {
+  opacity: .6;
 }

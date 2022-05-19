@@ -1,0 +1,22 @@
+@import url(/src/styles/variables.css);
+
+html {
+  scroll-behavior: smooth;
+}
+#backToTop {
+  position: fixed;
+  bottom: 1rem;
+  right: 2.5rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(100%);
+  transition: 200ms;
+}
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(0);
+}

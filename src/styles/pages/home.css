@@ -1,0 +1,60 @@
+@import url(../components/wrapper.css);
+@import url(../components/nav-link.css);
+
+#homepage {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#hello {
+  background: url(../../assets/thumbnail.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+
+#hello header {
+  padding: 1.6rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hello header h1 {
+  font-size: 4rem;
+  color: var(--white);
+  font-family: 'Roboto Mono', monospace;
+}
+
+#hello header nav {
+  display: flex;
+  height: 100%;
+  gap: .8rem;
+}
+
+#hello main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+#hello main h1 {
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  font-weight: 700;
+  width: 60%;
+}
+
+#hello main p {
+  color: var(--white-accent);
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  width: 50%;
+}

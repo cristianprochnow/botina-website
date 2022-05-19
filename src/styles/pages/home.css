@@ -32,6 +32,21 @@
   font-size: 4rem;
   color: var(--white);
   font-family: 'Roboto Mono', monospace;
+  position: relative;
+}
+
+#hello header h1::after {
+  content: '.';
+  height: 80%;
+  font-size: 2.4rem;
+  position: absolute;
+  top: .2rem;
+  color: transparent;
+  margin-left: .8rem;
+  background: var(--gradient);
+  animation-name: showHide;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 #hello header nav {

@@ -4,7 +4,7 @@ function onScroll() {
   showBackToTop()
 }
 function showBackToTop() {
-  if (scrollY > -1) {
+  if (scrollY > 500) {
     backToTop.classList.add('show')
   } else {
     backToTop.classList.remove('show')

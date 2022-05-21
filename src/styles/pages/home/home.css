@@ -1,9 +1,14 @@
 @import url(../../components/wrapper.css);
 @import url(../../components/nav-link.css);
-@import url(../../animations/showHide.css);
 @import url(../../components/back-to-top.css);
 @import url(../../components/responsive-menu.css);
+@import url(../../components/animated-title.css);
+
+@import url(../../animations/waveColor.css);
+@import url(../../animations/showHide.css);
+
 @import url(./sections/hello.css);
+@import url(./sections/about.css);
 
 #homepage {
   width: 100vw;

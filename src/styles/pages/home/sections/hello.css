@@ -8,6 +8,7 @@
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr 4fr 1fr;
+  padding-bottom: 3.2rem;
 }
 
 #hello header {

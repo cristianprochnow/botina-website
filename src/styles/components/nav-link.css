@@ -6,10 +6,12 @@
   border: .2rem solid var(--white);
   border-radius: .4rem;
   padding: 1.6rem;
-  transition: opacity .3s;
-  text-align: center;
+  transition: all .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-link:hover {
-  opacity: .6;
+  background: var(--primary);
 }

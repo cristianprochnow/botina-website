@@ -1,0 +1,11 @@
+@import url(../../components/wrapper.css);
+@import url(../../components/nav-link.css);
+@import url(../../animations/showHide.css);
+@import url(../../components/back-to-top.css);
+@import url(../../components/responsive-menu.css);
+@import url(./sections/hello.css);
+
+#homepage {
+  width: 100vw;
+  min-height: 100vh;
+}

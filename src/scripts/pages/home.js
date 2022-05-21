@@ -6,8 +6,6 @@ function toggleResponsiveMenu() {
   };
   const isVisible = responsiveMenu.className == classes.show;
 
-  console.log(responsiveMenu.className)
-
   if (isVisible) {
     responsiveMenu.className = classes.hide;
   } else {

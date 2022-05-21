@@ -43,7 +43,7 @@
   top: .2rem;
   color: transparent;
   margin-left: .8rem;
-  background: var(--gradient);
+  background: var(--white-accent);
   animation-name: showHide;
   animation-duration: 1s;
   animation-iteration-count: infinite;

@@ -12,7 +12,7 @@
     rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="./src/assets/logos/logo2-sample.png">
   <link rel="stylesheet" href="./src/styles/global.css">
-  <link rel="stylesheet" href="./src/styles/pages/home.css">
+  <link rel="stylesheet" href="./src/styles/pages/home/home.css">
   <title>Botina</title>
 </head>
 
@@ -28,7 +28,18 @@
           <a class="nav-link" href="#">Integrantes</a>
           <a class="nav-link" href="#">Projetos</a>
           <a class="nav-link" href="#">Aprenda Conosco</a>
+          <a class="nav-link" href="javascript:void(0)" onclick="toggleResponsiveMenu()">
+            <img src="./src/assets/icons/menu.svg" alt="Menu Icon">
+          </a>
         </nav>
+
+        <section id="responsive-menu" class="hidden">
+          <a class="nav-link" href="#">Início</a>
+          <a class="nav-link" href="#">Quem Somos</a>
+          <a class="nav-link" href="#">Integrantes</a>
+          <a class="nav-link" href="#">Projetos</a>
+          <a class="nav-link" href="#">Aprenda Conosco</a>
+        </section>
       </header>
 
       <main class="wrapper">
@@ -50,36 +61,11 @@
   </div>
   </section>
   <a href="#homepage" id="backToTop">
-    <svg width="70" height="70" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g filter="url(#filter0_d_1_3)">
-        <circle cx="31.5" cy="27.5" r="27.5" fill="url(#paint0_radial_1_3)" />
-        <path d="M31.5 37.125V17.875" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-        <path d="M21.875 27.5L31.5 17.875L41.125 27.5" stroke="white" stroke-width="2" stroke-linecap="round"
-          stroke-linejoin="round" />
-      </g>
-      <defs>
-        <filter id="filter0_d_1_3" x="0" y="0" width="63" height="63" filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha" />
-          <feOffset dy="4" />
-          <feGaussianBlur stdDeviation="2" />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_3" />
-          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_3" result="shape" />
-        </filter>
-        <radialGradient id="paint0_radial_1_3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(4) rotate(45) scale(77.7817)">
-          <stop stop-color="#0071E3" />
-          <stop offset="1" stop-color="#0077ED" stop-opacity="0.85" />
-        </radialGradient>
-      </defs>
-    </svg>
+    <img src="./src/assets/icons/back-to-top.svg" alt="Voltar ao topo">
   </a>
 
-  <script src="./src/scripts/backToTop.js" defer></script>
+  <script src="./src/scripts/pages/home.js" defer></script>
+  <script src="./src/scripts/components/backToTop.js" defer></script>
 </body>
 
 </html>

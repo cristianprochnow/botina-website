@@ -1,15 +1,5 @@
-@import url(../components/wrapper.css);
-@import url(../components/nav-link.css);
-@import url(../animations/showHide.css);
-@import url(../components/back-to-top.css);
-
-#homepage {
-  width: 100vw;
-  min-height: 100vh;
-}
-
 #hello {
-  background: url(../../assets/thumbnail.png) no-repeat center center fixed; 
+  background: url(../../../../assets/thumbnail.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,6 +43,11 @@
   display: flex;
   height: 100%;
   gap: .8rem;
+}
+
+/* Link from the responsive menu button */
+#hello header nav a:last-child {
+  display: none;
 }
 
 #hello main {
@@ -111,10 +106,17 @@
   right: 28.5%;
 }
 
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
 @media (max-width: 960px) {
   #hello header {
     gap: 1.6rem;
-    flex-direction: column;
   }
 
   #hello main h1, #hello main p {
@@ -122,21 +124,34 @@
     width: 80%;
     margin: auto;
   }
+
+  #hello header {
+    padding: 0 4rem;
+  }
+
+  #hello header nav a:last-child {
+    display: flex;
+  }
+
+  #hello header nav a:not(:last-child) {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-  #hello header {
-    gap: 1.6rem;
-    flex-direction: column;
-  }
-
-  #hello header nav {
-    display: none;
-  }
-
   #hello main h1, #hello main p {
     width: 90%;
     margin: auto;
     text-align: center;
+  }
+
+  #hello main h1 {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+  
+  #hello main p {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
   }
 }

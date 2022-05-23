@@ -4,8 +4,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
   display: grid;
   grid-template-rows: 1fr 4fr 1fr;
   padding-bottom: 3.2rem;
@@ -86,7 +84,7 @@
   right: 28.5%;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 961px) {
   #hello header {
     gap: 1.6rem;
   }
@@ -110,7 +108,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   #hello main h1, #hello main p {
     width: 90%;
     margin: auto;

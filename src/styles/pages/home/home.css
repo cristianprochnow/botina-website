@@ -4,6 +4,8 @@
 @import url(../../components/responsive-menu.css);
 @import url(../../components/animated-title.css);
 @import url(../../components/card.css);
+@import url(../../components/fill-viewport.css);
+@import url(../../components/section-title.css);
 
 @import url(../../animations/goTopAndBottom.css);
 @import url(../../animations/showHide.css);
@@ -11,6 +13,7 @@
 @import url(./sections/hello.css);
 @import url(./sections/about.css);
 @import url(./sections/crew-members.css);
+@import url(./sections/projects.css);
 
 #homepage {
   width: 100vw;

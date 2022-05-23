@@ -1,6 +1,4 @@
 #about {
-  width: 100vw;
-  min-height: 100vh;
   padding-bottom: 5.6rem;
 }
 
@@ -40,7 +38,7 @@
   margin-top: 1.6rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #about header {
     flex-direction: row;
     justify-content: space-evenly;

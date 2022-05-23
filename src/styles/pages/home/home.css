@@ -5,7 +5,7 @@
 @import url(../../components/animated-title.css);
 @import url(../../components/card.css);
 
-@import url(../../animations/waveColor.css);
+@import url(../../animations/goTopAndBottom.css);
 @import url(../../animations/showHide.css);
 
 @import url(./sections/hello.css);

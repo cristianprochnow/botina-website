@@ -6,6 +6,8 @@
 @import url(../../components/card.css);
 @import url(../../components/fill-viewport.css);
 @import url(../../components/section-title.css);
+@import url(../../components/section-subtitle.css);
+@import url(../../components/image-card.css);
 
 @import url(../../animations/goTopAndBottom.css);
 @import url(../../animations/showHide.css);

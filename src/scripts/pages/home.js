@@ -12,3 +12,9 @@ function toggleResponsiveMenu() {
     responsiveMenu.className = classes.show;
   }
 }
+
+function goFromHomeToProject(fileName) {
+  const path = './src/pages/projects/'+fileName;
+
+  window.open(path);
+}

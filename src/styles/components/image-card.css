@@ -1,0 +1,36 @@
+.image-card {
+  border: 0;
+  border-radius: .32rem;
+  overflow: hidden;
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.image-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.image-card span {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.72);
+  transition: .2s;
+}
+
+.image-card span:hover {
+  background-color: rgba(0, 128, 255, 0.72);
+}
+
+.image-card span strong {
+  font-size: 2.4rem;
+}

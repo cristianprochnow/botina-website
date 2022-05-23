@@ -1,0 +1,36 @@
+.card {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.32);
+  border: 0;
+  border-radius: .2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4.8rem 1.6rem;
+  gap: 2.4rem;
+}
+
+.card header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.card header img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.card header h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+  text-align: center;
+}
+
+.card footer {
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

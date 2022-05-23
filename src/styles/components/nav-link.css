@@ -8,6 +8,7 @@
   padding: 1.6rem;
   transition: all .2s;
   display: flex;
+  gap: .8rem;
   align-items: center;
   justify-content: center;
 }

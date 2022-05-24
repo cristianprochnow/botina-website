@@ -10,55 +10,57 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="../../assets/logos/logo2.png">
-    <link rel="stylesheet" href="../../styles/global.css">
-    <link rel="stylesheet" href="">
-
-    <title>Botina | Projeto 01</title>
+  <link rel="icon" type="image/x-icon" href="../../assets/logos/logo2.png">
+  <link rel="stylesheet" href="../../styles/global.css">
+  <link rel="stylesheet" href="../../styles/pages/projects.css">
+  <title>Botina | Projeto 01</title>
 </head>
 
 <body>
-  <a target="_blank" href="../../../index.html" class="nav-link">
-    <img src="../../assets/icons/arrow-left.svg" alt="Voltar">
-    Voltar
-  </a>
-  
-  
-      <p> Este projeto foi o nosso primeiro contato com a ferramenta 
-        da AutoDesk, no projeto as luzes  verde, vermelho e amarelo ligam
-         e desligam um após o outro imitando o funcionamento de um semáforo.
-      </p>
-
-  <img src="../../assets/images/projects/01.jpg" alt="Primeiro Projeto Arduino">
-
-    <pre>
-      // Code Semáforo
-      void setup() {
-        pinMode(7, OUTPUT); //LED VERMELHO
-        pinMode(5, OUTPUT); //LED AMARELO
-        pinMode(3, OUTPUT); //LED VERDE
-      }
-      
-      void loop() {
-        digitalWrite(7, HIGH); //LIGA LED VERMELHO
-        delay(1000); // ESPERA UM POUCO
-        digitalWrite(7, LOW); //DESLIGA O VERMELHO
-        delay(1000); // ESPERA UM POUCO
-       
-        digitalWrite(5, HIGH); //LIGA LED AMARELO
-        delay(1000); // ESPERA UM POUCO
-        digitalWrite(5, LOW); //DESLIGA O AMARELO
-        delay(1000); // ESPERA UM POUCO
-       
-        digitalWrite(3, HIGH); //LIGA LED VERDE
-        delay(1000); // ESPERA UM POUCO
-        digitalWrite(3, LOW); //DESLIGA O VERDE
-        delay(1000); // ESPERA UM POUCO
-      }
-    </pre>
-
-
-
+  <div id="projects" class="fill-viewport">
+    <header class="wrapper">
+      <a href="/index.html" class="nav-link">
+        <img src="/src/assets/icons/arrow-left.svg" alt="Voltar"> Voltar
+      </a>
+    </header>
+    <section class="wrapper">
+      <header>
+        <h2 class="section-title">
+          Semáforo
+        </h2>
+        <p>
+          Este projeto foi o nosso primeiro contato com a ferramenta 
+          da AutoDesk, no projeto as luzes  verde, vermelho e amarelo ligam
+          e desligam um após o outro imitando o funcionamento de um semáforo.
+        </p>
+        <img src="/src/assets/images/projects/01.jpg" alt="Projeto do Sensor de Emergência">
+        <pre>
+          // Code Semáforo
+          void setup() {
+            pinMode(7, OUTPUT); //LED VERMELHO
+            pinMode(5, OUTPUT); //LED AMARELO
+            pinMode(3, OUTPUT); //LED VERDE
+          }
+          
+          void loop() {
+            digitalWrite(7, HIGH); //LIGA LED VERMELHO
+            delay(1000); // ESPERA UM POUCO
+            digitalWrite(7, LOW); //DESLIGA O VERMELHO
+            delay(1000); // ESPERA UM POUCO
+          
+            digitalWrite(5, HIGH); //LIGA LED AMARELO
+            delay(1000); // ESPERA UM POUCO
+            digitalWrite(5, LOW); //DESLIGA O AMARELO
+            delay(1000); // ESPERA UM POUCO
+          
+            digitalWrite(3, HIGH); //LIGA LED VERDE
+            delay(1000); // ESPERA UM POUCO
+            digitalWrite(3, LOW); //DESLIGA O VERDE
+            delay(1000); // ESPERA UM POUCO
+          }
+        </pre>
+      </header>
+    </section>
+  </div>
 </body>
-
 </html>

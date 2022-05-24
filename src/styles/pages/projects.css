@@ -4,31 +4,33 @@
 @import url(../components/section-subtitle.css);
 @import url(../components/section-title.css);
 
-#project-02 {
+#projects {
   margin: 1.6rem 0;
 }
 
-#project-02 section p {
+#projects section p {
   font-size: 1.6rem;
   line-height: 3.2rem;
   margin-top: 1.6rem;
 }
 
-#project-02 section img {
+#projects section img {
   width: 100%;
   border: 0;
   border-radius: .4rem;
   margin: 1.6rem 0;
 }
 
-#project-02 pre {
+#projects pre {
   font-size: 1.6rem;
   border: 0;
   border-radius: .4rem;
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 7.2rem 0; 
+  padding: 7.2rem;
+  padding-left: 0; 
+  overflow: scroll;
 }
 
-#project-02 > header .nav-link {
+#projects > header .nav-link {
   width: 16rem;
 }

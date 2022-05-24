@@ -26,5 +26,5 @@ function goFromHomeToArduino(fileName) {
 }
 
 function goTo(path) {
-  window.open(path);
+  location.href = path;
 }

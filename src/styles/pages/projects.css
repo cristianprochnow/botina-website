@@ -1,0 +1,28 @@
+@import url(/src/styles/components/nav-link.css);
+@import url(/src/styles/components/section-subtitle.css);
+@import url(/src/styles/components/section-title.css);
+
+h2 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+.img-projects {
+  width: 100%;
+  margin-block: 5rem;
+}
+
+pre {
+  font-size: 1.6rem;
+  border: 0;
+  border-radius: .4rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 3.2rem;
+}
+header:nth-child(1) a {
+  width: 18%;
+}

@@ -16,6 +16,7 @@
 @import url(./sections/about.css);
 @import url(./sections/crew-members.css);
 @import url(./sections/projects.css);
+@import url(./sections/learn-with-us.css);
 
 #homepage {
   width: 100vw;

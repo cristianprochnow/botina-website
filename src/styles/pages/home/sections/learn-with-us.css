@@ -1,0 +1,24 @@
+#learn-with-us main h2 {
+  margin-bottom: 1.6rem;
+}
+
+#learn-with-us main section {
+  margin-bottom: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+@media (min-width: 769px) {
+  #learn-with-us main section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 961px) {
+  #learn-with-us main section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -16,5 +16,15 @@ function toggleResponsiveMenu() {
 function goFromHomeToProject(fileName) {
   const path = './src/pages/projects/'+fileName;
 
+  goTo(path);
+}
+
+function goFromHomeToArduino(fileName) {
+  const path = './src/pages/learn-with-us/'+fileName;
+  
+  goTo(path);
+}
+
+function goTo(path) {
   window.open(path);
 }

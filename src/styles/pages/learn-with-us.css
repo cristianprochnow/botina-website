@@ -1,0 +1,43 @@
+@import url(../components/nav-link.css);
+@import url(../components/wrapper.css);
+@import url(../components/section-title.css);
+
+#learn-with-us {
+  margin: 1.6rem 0;
+}
+
+#learn-with-us > header .nav-link {
+  width: 16rem;
+}
+
+#learn-with-us main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+#learn-with-us main div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#learn-with-us main div img {
+  width: 100%;
+  border: 0;
+  border-radius: .4rem;
+}
+
+#learn-with-us main div p {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+
+@media (min-width: 961px) {
+  #learn-with-us main div {
+    display: grid;
+    gap: 3.2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

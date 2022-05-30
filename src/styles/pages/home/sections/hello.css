@@ -1,3 +1,4 @@
+/* estilização e responsividade da tag hello (tela inicio da pagina) */
 #hello {
   background: url(../../../../assets/thumbnail.png) no-repeat center center fixed; 
   -webkit-background-size: cover;

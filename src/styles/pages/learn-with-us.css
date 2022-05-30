@@ -1,8 +1,10 @@
+/* importando os css */
 @import url(../components/nav-link.css);
 @import url(../components/wrapper.css);
 @import url(../components/section-title.css);
 @import url(../components/section-subtitle.css);
 
+/* estilização e responsividade dos cards aprenda conosco */
 #learn-with-us {
   margin: 1.6rem 0;
 }

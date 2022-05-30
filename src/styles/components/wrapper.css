@@ -1,3 +1,5 @@
+/* limite da largura dos conteúdo do site */
+
 .wrapper {
   width: 90%;
   max-width: 960px;

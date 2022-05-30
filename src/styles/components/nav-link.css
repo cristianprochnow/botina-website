@@ -1,9 +1,11 @@
+/* estilização dos botões do site */
+
 .nav-link {
   text-decoration: none;
   color: var(--white);
   font-size: 1.6rem;
   font-weight: 500;
-  border: .2rem solid var(--white);
+  border: .1rem solid var(--white);
   border-radius: .4rem;
   padding: 1.6rem;
   transition: all .2s;

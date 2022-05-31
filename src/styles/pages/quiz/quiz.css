@@ -1,0 +1,108 @@
+@import url(../../components/wrapper.css);
+@import url(../../components/nav-link.css);
+@import url(../../components/section-title.css);
+@import url(../../components/section-subtitle.css);
+@import url(../../components/input-group.css);
+
+@import url(./section/questions.css);
+
+#quiz {
+  margin: 1.6rem 0;
+}
+
+#quiz > header .nav-link {
+  width: 16rem;
+}
+
+#quiz main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#quiz footer {
+  display: flex;
+}
+
+#quiz footer button {
+  display: flex;
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+  flex: 1;
+  gap: 1.6rem;
+  background: var(--gradient);
+  border: 0;
+  border-radius: .32rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem 0;
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: opacity .3s;
+  cursor: pointer;
+}
+
+#quiz footer button:hover {
+  opacity: .8;
+}
+
+#quiz footer button img {
+  height: 2.4rem;
+}
+
+#modal {
+  position: fixed;
+  width: 32rem;
+  height: 32rem;
+  top: 50%;
+  margin-left: -16rem;
+  margin-top: -16rem;
+  left: 50%;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  border: .2rem solid var(--primary);
+  border-radius: .4rem;
+  background-color: var(--black);
+}
+
+#modal header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;  
+}
+
+#modal button {
+  margin-bottom: 4rem;
+  background: var(--gradient);
+  transition: opacity .3s;
+  padding: 1.6rem;
+  color: var(--white);
+  border: 0;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+#modal button:hover {
+  opacity: .8;
+}
+
+#modal span {
+  width: 100%;
+  height: 3.2rem;
+  background: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none !important;
+}

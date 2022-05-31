@@ -1,0 +1,15 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.input-group label {
+  font-size: 1.6rem;
+}
+  
+.input-stack {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}

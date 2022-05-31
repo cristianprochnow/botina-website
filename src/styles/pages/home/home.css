@@ -11,6 +11,7 @@
 
 @import url(../../animations/goTopAndBottom.css);
 @import url(../../animations/showHide.css);
+@import url(../../animations/togglePrimaryAndBasic.css);
 
 @import url(./sections/hello.css);
 @import url(./sections/about.css);

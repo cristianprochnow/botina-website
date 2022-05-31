@@ -1,0 +1,11 @@
+@keyframes togglePrimaryAndBasic {
+  0% {
+    color: var(--white);
+  }
+  50% {
+    color: var(--primary);
+  }
+  100% {
+    color: var(--white);
+  }
+}

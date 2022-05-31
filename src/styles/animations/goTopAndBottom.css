@@ -1,3 +1,5 @@
+/* Animação dos cards da equipe */
+
 @keyframes goTopAndBottom {
   0% {
     transform: translateY(0);

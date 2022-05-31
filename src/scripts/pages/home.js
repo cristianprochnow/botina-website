@@ -1,3 +1,4 @@
+// componente que faz o menu do home aparecer e esconder.
 function toggleResponsiveMenu() {
   const responsiveMenu = document.querySelector('section#responsive-menu');
   const classes = {
@@ -13,12 +14,14 @@ function toggleResponsiveMenu() {
   }
 }
 
+// função que muda para a pagina dos "projetos".
 function goFromHomeToProject(fileName) {
   const path = './src/pages/projects/'+fileName;
 
   goTo(path);
 }
 
+// função que mudar para a pagina dos "aprenda conosco".
 function goFromHomeToArduino(fileName) {
   const path = './src/pages/learn-with-us/'+fileName;
   

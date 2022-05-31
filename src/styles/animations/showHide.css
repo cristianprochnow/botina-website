@@ -1,3 +1,5 @@
+/* Animação do cursor piscando */
+
 @keyframes showHide {
   0% {
     opacity: 0;

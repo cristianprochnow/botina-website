@@ -1,3 +1,4 @@
+/* importado os css */
 @import url(../../components/wrapper.css);
 @import url(../../components/nav-link.css);
 @import url(../../components/back-to-top.css);
@@ -19,6 +20,7 @@
 @import url(./sections/projects.css);
 @import url(./sections/learn-with-us.css);
 
+/* componente para home cobrir toda tela do usuário */
 #homepage {
   width: 100vw;
   min-height: 100vh;

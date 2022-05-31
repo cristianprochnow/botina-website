@@ -1,8 +1,11 @@
+/* importando os css */
 @import url(../components/nav-link.css);
 @import url(../components/nav-link.css);
 @import url(../components/wrapper.css);
 @import url(../components/section-subtitle.css);
 @import url(../components/section-title.css);
+
+/* estilização da parte dos projetos */
 
 #projects {
   margin: 1.6rem 0;

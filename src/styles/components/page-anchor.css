@@ -1,0 +1,15 @@
+.page-anchor-group {
+  padding-top: 2.4rem;
+  font-size: 1.4rem;
+}
+
+.page-anchor-group a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--white);
+  transition: color .3s;
+}
+
+.page-anchor-group a:hover {
+  color: var(--primary);
+}

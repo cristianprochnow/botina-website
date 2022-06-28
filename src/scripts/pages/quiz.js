@@ -14,10 +14,11 @@ sendButton.addEventListener('click', function() {
     '07-01', 
     '08-03'
   ];
+  // Select just '01' from '01-04', for example.
+  const correctAnswersLabel = correctAnswers.map(item => item.split('-')[0]);
   const correctAnswersByUser = [];
   const scoreToWin = 8;
   let totalScoreFromUser = 0;
-
   const questions = [
     document.getElementsByName('question-01'),
     document.getElementsByName('question-02'),
@@ -29,6 +30,7 @@ sendButton.addEventListener('click', function() {
     document.getElementsByName('question-08')
   ];
   const questionsAnswer = [];
+  const questionsNotAnswered = [];
 
   // Selecionar apenas as questões selecionadas.
   for (let counter = 0; counter < 8; counter++) {
@@ -41,8 +43,24 @@ sendButton.addEventListener('click', function() {
     }
   }
 
+  // Verifica se todas as questões foram preenchidas.
   if (questionsAnswer.length < correctAnswers.length) {
-    return alert('Preencha todos os campos!');
+    // Encontrando quais questões especificamente ainda não foram preenchidas.
+    questionsAnswer.forEach(questionAnswer => {
+      // Verificar se o ID da questão que foi respondida está no array total de questões.
+      if (correctAnswersLabel.includes(questionAnswer.id.split('-')[0])) {
+        // Então remover o índice que bate para que sobre apenas os pendentes.
+        correctAnswersLabel.splice(
+          correctAnswersLabel.indexOf(questionAnswer.id.split('-')[0]), 1
+        );
+      }
+    });
+
+    const pendantAnswerText = correctAnswersLabel
+      .map(item => parseInt(item))
+      .join(', ');
+
+    return alert('Preencha todos os campos! \n\n Questões pendentes: '+pendantAnswerText);
   }
 
   // Definir quais as questões foram acertadas ou não
